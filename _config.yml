@@ -5,15 +5,16 @@ theme: minima
 collections:
   stories:
     output: true
+    permalink: /:name/  # Tạo URL dạng /rua-va-tho/ thay vì .html
 
 defaults:
   - scope:
       path: ""
       type: stories
     values:
-      layout: page  # Áp layout page cho mọi truyện
+      layout: default  # Dùng default thay page
   - scope:
       path: ""
       type: posts
     values:
-      layout: post  # Áp layout post cho mọi chương
+      layout: post
