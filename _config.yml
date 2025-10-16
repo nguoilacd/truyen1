@@ -1,7 +1,19 @@
 title: Website Truyện Chữ Của Tôi
 description: Bộ sưu tập truyện chữ miễn phí
-theme: minima  # Theme mặc định đẹp, đơn giản
+theme: minima
 
 collections:
   stories:
-    output: true  # Tạo trang riêng cho mỗi truyện
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: stories
+    values:
+      layout: page  # Áp layout page cho mọi truyện
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post  # Áp layout post cho mọi chương
