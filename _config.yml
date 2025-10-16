@@ -1,0 +1,7 @@
+title: Website Truyện Chữ Của Tôi
+description: Bộ sưu tập truyện chữ miễn phí
+theme: minima  # Theme mặc định đẹp, đơn giản
+
+collections:
+  stories:
+    output: true  # Tạo trang riêng cho mỗi truyện
